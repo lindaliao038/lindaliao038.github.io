@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #ddd;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        #tab {
+            margin-top: 50px;
+        }
+
+        #tab .tab-btns {
+            display: flex;
+        }
+
+        #tab .tab-btn.active {
+            background-color: rgb(160, 157, 157);
+        }
+
+        #tab .tab-btn {
+            background-color: white;
+            padding: 5px 10px;
+            margin: 0 5px;
+            border-radius: 5px 5px 0 0;
+            cursor: pointer;
+        }
+
+        #tab .tabs-content {
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        #tab .tab-content {
+            padding: 30px 20px;
+            display: none;
+        }
+
+        #tab .tab-content.active {
+            display: block;
+        }
+
+        #tab .tab-content h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="tab">
+            <div class="tab-btns">
+                <div id="tab_btn_A" class="tab-btn ">TabA</div>
+                <div id="tab_btn_B" class="tab-btn">TabB</div>
+                <div id="tab_btn_C" class="tab-btn">TabC</div>
+            </div>
+
+            <div class="tabs-content">
+                <div id="tab_content_A" class="tab-content active">
+                    <h1>Tab1 titile</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis alias, neque maxime nobis commodi
+                        accusantium quas mollitia corporis quaerat ratione eos debitis architecto sequi rem! Officiis
+                        culpa
+                        dolorem cum asperiores.
+                    </p>
+                </div>
+                <div id="tab_content_B" class="tab-content">
+                    <h1>Tab2 titile</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt dolores tempora ea
+                        perspiciatis deserunt nostrum at totam non autem perferendis maxime facilis reiciendis ex
+                        mollitia
+                        voluptas iusto, nisi molestias.
+                    </p>
+                </div>
+                <div id="tab_content_C" class="tab-content">
+                    <h1>Tab3 titile</h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, unde repellendus
+                        consequuntur
+                        necessitatibus quas voluptas, sed in tenetur quasi nesciunt distinctio corporis velit quis
+                        explicabo
+                        numquam officiis. Tenetur, aliquam illum!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script>
+        $(".tab-btn").click(function () {
+
+            console.log(this);
+
+
+
+        });
+
+    </script>
+</body>
+
+</html>

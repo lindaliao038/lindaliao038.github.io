@@ -1,0 +1,785 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+#navbar{
+    width: 100vw;
+    /* height:50px; */
+    background-color:rgba(128, 128, 128, 0.589);
+    float:left;
+    padding-top:30px;
+    /* position: relative; */
+}
+
+.cube{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    margin-top:25px;
+   margin-right:20px;
+padding:10px;
+text-align: center;
+    float:right;
+}
+
+
+
+
+ #logo{
+        width: 200px;
+     
+        /* background-color: aliceblue; */
+        background-image: url("./img/RuPaul-logo.png") 
+       
+        border:1px solid gray;
+        border-radius: 25px;
+        float:left;
+        
+    }
+
+    #cube1{
+        width: 50px;
+        height: 100%;
+        background-color: red;
+        float:right;
+    }
+/* 扉頁 */
+#banner{
+    width: 100vw;
+    height:100vh;
+    background-color:black;
+    margin: auto;
+    top:150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 150px;
+   
+    position: relative;
+    background-image: url("./img/rp.jpg");
+    background-attachment: fixed;
+  
+}
+
+
+#rubox{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.267);
+    position: absolute;
+    bottom:0;
+}
+
+/* 支撐RP標題字的box */
+#text{
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top:calc(50% - 75px);
+    left:calc(50% - 250px);
+    background-color:
+
+}
+
+.font1{
+font-size: 36pt;
+color: white;
+/* padding-top: 50px;  */
+font-family: 'Lobster', cursive;
+
+
+}
+
+
+
+
+/* About Drag */
+#banner2{
+    width: 1440px;
+    height:250px;
+    background-color:black;
+    margin: auto;
+    background-size: cover;
+    position: relative;
+   
+  
+}
+
+
+#dragbox{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.281);
+    position: absolute;
+    bottom:0;
+}
+/* 支撐關於drag的文字 */
+#text2{
+    width: 700px;
+    height: ;
+    position: absolute;
+    top:calc(50% - 75px);
+    left:calc(50% - 350px);
+    background-color:rgba(255, 255, 255, 0);
+
+}
+
+.font2{
+    color: white;
+    font-size: 12pt;
+    padding: 50px; 
+    margin: auto;
+    font-family: 'Lobster', cursive;
+font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+/* 介紹魯保羅這個人 */
+#banner3{
+    width: 1440px;
+    height:500px;
+    background-color:black;
+    margin: auto;
+    background-size: cover;
+    position: relative;
+   background-image: url("./img/bg1.jpg")
+
+  
+}
+/* <!-- 保羅介紹區塊 --> */
+#pic_rp{
+    width: 720px;
+    height: 300px;
+    /* margin: auto; */
+    background-color: rgba(251, 180, 13, 0.678);
+    position: absolute;
+    left: calc(50% - 360px);
+    top: calc(50% - 150px);
+}
+
+#text3{
+    width: 60%;
+    height: ;
+    position: absolute;
+    top: calc(50% - 140px);
+    left: calc(50% - 350px);
+    /* background-color:red; */
+
+}
+
+#avatar_rp{
+    width:30%;
+    height: 250px;
+    top: calc(50% - 120px);
+    right: calc(50% - 300px);
+    background-color: white;
+    position: absolute;
+    background-size: cover;
+    background-position: -90px 0;
+    background-image: url("./img/ruuuu1.png")
+}
+
+#banner3-5{
+  width: 100vw;
+ text-align: center;
+}
+/* 介紹其他代表人物 */
+#banner4{
+    width: 1440px;
+    height:500px;
+    background-color:black;
+    margin: auto;
+    background-size: cover;
+   position: relative;
+
+}
+
+#box1{
+    background-color: blue;
+    width: 300px;
+    height: 500px;
+    
+    left: calc(25% - 100px);
+    position:absolute
+}
+
+#violet{
+    width:300px;
+    height: 250px;
+    background-color: white;
+    border-radius: px;
+    padding:20px;
+    background-size: cover; 
+   
+    background-image: url("./img/violet.jpg")
+
+
+}
+
+#viowd{
+    width: 300px;
+    height: 250px;
+    background-color: pink;
+    padding:30px;
+
+    /* margin: auto; */
+}
+
+.font3{
+    
+    padding-bottom:10px;
+    font-family: 'Lobster', cursive;
+font-family: 'Noto Sans TC', sans-serif;
+}
+
+#box2{
+    background-color: green;
+    width: 300px;
+    height: 500px;
+    
+    left: calc(45% - 65px);
+   
+    position:absolute
+}
+
+#aqruia{
+    width:300px;
+    height: 250px;
+    background-color: white;
+    border-radius: px;
+    padding:20px;
+    background-size: cover;
+    background-image: url("./img/aqu.jpg")
+
+
+}
+
+#aqwd{
+    width: 300px;
+    height: 250px;
+    background-color: pink;
+    padding:30px;
+
+}
+
+#box3{
+    /* background-color: red; */
+    width: 300px;
+    height: 500px;
+    
+    left: calc(70% - 100px);
+    position:absolute
+}
+
+#sasha{
+    width:300px;
+    height: 250px;
+    background-color: white;
+    /* border-radius: 30px; */
+    padding:20px;
+    background-size: cover;
+    background-image: url("./img/sasha.jpg")
+    
+
+}
+
+#sawd{
+    width: 300px;
+    height: 250px;
+    background-color: pink;
+    padding:30px;
+
+}
+
+
+
+#banner5{
+    width: 1440px;
+    height:800px;
+    background-color:black;
+    margin: auto;
+    background-size: cover;
+   position: relative;
+
+}
+
+#frame{
+    width: 1440px;
+    height: 1000px;
+    margin:auto;
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat
+    
+    background-attachment: fixed;
+    background-image: url("./img/b3.jpg");
+}
+
+#endword{
+
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom:calc(100% - 720px);
+    background-color: rgba(255, 255, 255, 0.342);
+    
+}
+
+#endbox{
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    bottom:calc(50% - 80px);
+    left:calc(50% - 720px);
+    padding:25px;
+    /* background-color: white; */
+
+}
+
+.float-R{
+    float:right; 
+}
+
+#banner6{
+    width: 100vw;
+    height: 100vh;
+}
+
+#vedio{
+
+width: 560px;
+height: 315px;
+background-color: white;
+margin-top:300px;
+margin-left:400px;
+float:left;
+
+}
+
+#copright{
+    width: 100vw;
+    background-color: white;
+
+}
+#copybox{
+
+width: 50%;
+
+/* background-color: yellow; */
+margin-left:35%;
+
+}
+
+#textal{
+
+padding: 10px;
+}
+
+#gotop{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 50px;
+    padding:10px;
+    text-align: center;
+    margin-left:42%;
+}
+
+/* 這邊大小改991 */
+@media(min-width:991px){
+    #navbar{
+        width: 100vw;
+        /* height:50px; */
+        background-color:rgba(128, 128, 128, 0.589);
+        float:left;
+        padding-top:30px;
+        /* position: relative; */
+    }
+    
+    .cube{
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        margin-top:25px;
+       margin-right:20px;
+    padding:10px;
+    text-align: center;
+        float:right;
+    }
+    
+    
+    
+    
+     #logo{
+            width: 200px;
+         
+            /* background-color: aliceblue; */
+            background-image: url("./img/RuPaul-logo.png") 
+           
+            border:1px solid gray;
+            border-radius: 25px;
+            float:left;
+            
+        }
+    
+        #cube1{
+            width: 50px;
+            height: 100%;
+            background-color: red;
+            float:right;
+        }
+    /* 扉頁 */
+    #banner{
+        width: 100vw;
+        height:100vh;
+        background-color:black;
+        margin: auto;
+        top:150px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 150px;
+       
+        position: relative;
+        background-image: url("./img/rp.jpg");
+        background-attachment: fixed;
+      
+    }
+    
+    
+    #rubox{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.267);
+        position: absolute;
+        bottom:0;
+    }
+    
+    /* 支撐RP標題字的box */
+    #text{
+        width: 500px;
+        height: 150px;
+        position: absolute;
+        top:calc(50% - 75px);
+        left:calc(50% - 250px);
+        background-color:
+    
+    }
+    
+    .font1{
+    font-size: 36pt;
+    color: white;
+    /* padding-top: 50px;  */
+    font-family: 'Lobster', cursive;
+    
+    
+    }
+    
+    
+    
+    
+    /* About Drag */
+    #banner2{
+        width: 1440px;
+        height:250px;
+        background-color:black;
+        margin: auto;
+        background-size: cover;
+        position: relative;
+       
+      
+    }
+    
+    
+    #dragbox{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.281);
+        position: absolute;
+        bottom:0;
+    }
+    /* 支撐關於drag的文字 */
+    #text2{
+        width: 700px;
+        height: ;
+        position: absolute;
+        top:calc(50% - 75px);
+        left:calc(50% - 500px);
+        background-color:rgba(255, 255, 255, 0);
+    
+    }
+    
+    .font2{
+        color: white;
+        font-size: 12pt;
+        padding: 50px; 
+        margin: auto;
+        font-family: 'Lobster', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    
+    }
+    
+    /* 介紹魯保羅這個人 */
+    #banner3{
+        width: 1440px;
+        height:500px;
+        background-color:black;
+        margin: auto;
+        background-size: cover;
+        position: relative;
+       background-image: url("./img/bg1.jpg")
+    
+      
+    }
+    /* <!-- 保羅介紹區塊 --> */
+    #pic_rp{
+        width: 720px;
+        height: 300px;
+        /* margin: auto; */
+        background-color: rgba(251, 180, 13, 0.678);
+        position: absolute;
+        left: calc(50% - 360px);
+        top: calc(50% - 150px);
+    }
+    
+    #text3{
+        width: 60%;
+        height: ;
+        position: absolute;
+        top: calc(50% - 140px);
+        left: calc(50% - 350px);
+        /* background-color:red; */
+    
+    }
+    
+    #avatar_rp{
+        width:30%;
+        height: 250px;
+        top: calc(50% - 120px);
+        right: calc(50% - 300px);
+        background-color: white;
+        position: absolute;
+        background-size: cover;
+        background-position: -90px 0;
+        background-image: url("./img/ruuuu1.png")
+    }
+    
+    #banner3-5{
+      width: 100vw;
+     text-align: center;
+    }
+    /* 介紹其他代表人物 */
+    #banner4{
+        width: 1440px;
+        height: 1500px;
+        background-color:black;
+        margin: auto;
+        background-size: cover;
+       position: relative;
+    
+    }
+    
+    #box1{
+        background-color: blue;
+        width: 300px;
+        height: 500px;
+        
+        left: calc(25% - 100px);
+        position:absolute
+    }
+    
+    #violet{
+        width:300px;
+        height: 250px;
+        background-color: white;
+        border-radius: px;
+        padding:20px;
+        background-size: cover; 
+       
+        background-image: url("./img/violet.jpg")
+    
+    
+    }
+    
+    #viowd{
+        width: 300px;
+        height: 250px;
+        background-color: pink;
+        padding:30px;
+    
+        /* margin: auto; */
+    }
+    
+    .font3{
+        
+        padding-bottom:10px;
+        font-family: 'Lobster', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    }
+    
+    #box2{
+        background-color: green;
+        width: 300px;
+        height: 500px;
+        
+        left: calc(45% - 65px);
+       
+        position:absolute
+    }
+    
+    #aqruia{
+        width:300px;
+        height: 250px;
+        background-color: white;
+        border-radius: px;
+        padding:20px;
+        background-size: cover;
+        background-image: url("./img/aqu.jpg")
+    
+    
+    }
+    
+    #aqwd{
+        width: 300px;
+        height: 250px;
+        background-color: pink;
+        padding:30px;
+    
+    }
+    
+    #box3{
+        /* background-color: red; */
+        width: 300px;
+        height: 500px;
+        
+        left: calc(70% - 100px);
+        position:absolute
+    }
+    
+    #sasha{
+        width:300px;
+        height: 250px;
+        background-color: white;
+        /* border-radius: 30px; */
+        padding:20px;
+        background-size: cover;
+        background-image: url("./img/sasha.jpg")
+        
+    
+    }
+    
+    #sawd{
+        width: 300px;
+        height: 250px;
+        background-color: pink;
+        padding:30px;
+    
+    }
+    
+    
+    
+    #banner5{
+        width: 1440px;
+        height:800px;
+        background-color:black;
+        margin: auto;
+        background-size: cover;
+       position: relative;
+    
+    }
+    
+    #frame{
+        width: 1440px;
+        height: 1000px;
+        margin:auto;
+        background-color: black;
+        background-size: contain;
+        background-repeat: no-repeat
+        
+        background-attachment: fixed;
+        background-image: url("./img/b3.jpg");
+    }
+    
+    #endword{
+    
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        bottom:calc(100% - 720px);
+        background-color: rgba(255, 255, 255, 0.342);
+        
+    }
+    
+    #endbox{
+        width: 50%;
+        height: 40%;
+        position: absolute;
+        bottom:calc(50% - 80px);
+        left:calc(50% - 720px);
+        padding:25px;
+        /* background-color: white; */
+    
+    }
+    
+    .float-R{
+        float:right; 
+    }
+    
+    #banner6{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    #vedio{
+    
+    width: 560px;
+    height: 315px;
+    background-color: white;
+    margin-top:300px;
+    margin-left:400px;
+    float:left;
+    
+    }
+    
+    #copright{
+        width: 100vw;
+        background-color: white;
+    
+    }
+    #copybox{
+    
+    width: 50%;
+    
+    /* background-color: yellow; */
+    margin-left:35%;
+    
+    }
+    
+    #textal{
+    
+    padding: 10px;
+    }
+    
+    #gotop{
+        width: 100px;
+        height: 50px;
+        background-color: pink;
+        border-radius: 50px;
+        padding:10px;
+        text-align: center;
+        margin-left:42%;
+    }
+    
+    
+
+}

@@ -1,0 +1,300 @@
+body {
+
+    margin: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+@media (min-width: 1700px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1800px;
+    }
+}
+
+.container {
+    max-width: 1440px;
+    justify-content: center;
+}
+
+#navbar {
+    max-width: 1440px;
+    /* height:50px; */
+    background-color: rgba(248, 200, 160, 0.589);
+    display: flex;
+    padding: 30px 0;
+
+
+}
+
+ .container.who  {
+    background-image: url("");
+    width: 1440px;
+    height: 800px;
+}
+
+.cube-group {
+
+    display: block;
+
+
+    margin: 0 auto;
+}
+
+.cube {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(216, 167, 111);
+    margin-top: 25px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    float: right;
+    border-radius: 30px;
+}
+
+#banner {
+    width: 100%;
+    height: 617px;
+    display: flex;
+    /* position: relative; */
+    /* background-color: rgb(255, 255, 255); */
+    /* background-size: cover;
+    background-position: center;
+    background-image: url("./img/banner.jpg");
+    background-attachment: fixed;
+     */
+}
+
+#tea-culture{
+
+padding:30px;
+
+
+    
+}
+
+
+
+.store{
+
+    
+}
+
+/* 
+#text {
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: calc(50% - 5px);
+    left: calc(50% - 250px);
+    background-color: rgba(255, 255, 255, 0.808);
+
+
+} */
+
+.font {
+    color: brown;
+    font-size: 36pt;
+    text-align: center;
+    line-height: 150px;
+    font-family: 'Hepta Slab', serif, 'Livvic', sans-serif, 'Noto Serif TC', serif;
+
+}
+
+.font2 {
+    color: black;
+    font-size: 16pt;
+    text-align: center;
+
+    font-family: 'Hepta Slab', serif, 'Livvic', sans-serif, 'Noto Serif TC', serif;
+}
+
+
+.font3 {
+    color: black;
+    font-size: 12pt;
+    text-align: center;
+
+    letter-spacing: 2;
+    font-family: 'Hepta Slab', serif, 'Livvic', sans-serif, 'Noto Serif TC', serif;
+}
+
+#title {
+    width: 100%;
+ 
+    background-color: white;
+    padding: 40px 60px;
+
+}
+
+
+.h1w {
+
+    max-width: 1440px;
+
+}
+
+#section {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    background-image: url("./img/drink.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+}
+
+#title2 {
+
+    max-width: 1440px;
+
+
+}
+
+.box1 {
+    width: 50%;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+    bottom: 0;
+
+    font-family: 'Hepta Slab', serif, 'Livvic', sans-serif, 'Noto Serif TC', serif;
+    margin: auto 0;
+    padding: 75px;
+}
+
+
+
+.box2 {
+    width: 50%;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+    bottom: 0;
+    margin: auto 0;
+    padding: 60px;
+
+    font-family: 'Hepta Slab', serif, 'Livvic', sans-serif, 'Noto Serif TC', serif;
+}
+
+#section2 {
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    display: block;
+
+}
+
+#title3 {
+
+    max-width: 1440px;
+
+}
+
+.store1 {
+
+    width: 100%;
+    height: 33%;
+    /* background-color: aquamarine; */
+}
+
+.store2 {
+
+    width: 100%;
+    height: 33%;
+    background-color: white;
+
+}
+
+.store3 {
+
+    width: 100%;
+    height: 33%;
+    background-color: aquamarine;
+
+}
+
+.pic {
+    width: 50%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+
+
+#section3 {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("");
+}
+
+.map_banner {
+
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+
+}
+
+.map {
+    width: 80%;
+    height: 300px;
+    margin: 100px auto;
+    background-color: aquamarine
+}
+
+
+/* 
+#title3 {
+    width: 100vw;
+    height: 150px;
+
+
+} */
+
+.font4 {
+    color: pink;
+    font-size: 36pt;
+    font-weight: 500;
+    text-align: center;
+
+    padding: 40px;
+    letter-spacing: 2;
+    font-family: 'Hepta Slab', serif, 'Livvic', sans-serif, 'Noto Serif TC', serif;
+}
+
+.fontin {
+    color: black;
+    font-size: 8pt;
+    text-align: center;
+    padding: 40px;
+    letter-spacing: 2;
+    font-family: 'Hepta Slab', serif, 'Livvic', sans-serif, 'Noto Serif TC', serif;
+}
+
+.big font {
+
+    font-size: 24pt;
+}
+
+
